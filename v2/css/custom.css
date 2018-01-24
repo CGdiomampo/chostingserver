@@ -1,0 +1,908 @@
+/* CUSTOM */
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-white h1 {
+    color: #fff!important;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(../images/bg-hosting.jpg);	    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+header.masthead .container{
+    z-index: 1;
+    position: relative;
+}
+
+header.masthead .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg,#ee0979 0,#ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+
+
+
+
+
+
+
+/* ======================== */
+/*   Syed Sahar Ali Raza   	*/
+/* ========================	*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+body{background-color:#eee;}
+
+#generic_price_table{
+	background-color: #f0eded;
+}
+
+/*PRICE COLOR CODE START*/
+#generic_price_table .generic_content{
+	background-color: #fff;
+}
+
+#generic_price_table .generic_content .generic_head_price{
+	background-color: #f6f6f6;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+	border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+	color: #525252;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li{	
+	color: #a7a7a7;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li span{
+	color: #414141;
+}
+#generic_price_table .generic_content .generic_feature_list ul li:hover{
+	background-color: #E4E4E4;
+	border-left: 5px solid #2ECC71;
+}
+
+#generic_price_table .generic_content .generic_price_btn a{
+	border: 1px solid #2ECC71; 
+    color: #2ECC71;
+} 
+
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
+	border-color: #2ECC71 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #2ECC71;
+	color: #fff;
+}
+
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span{
+	color: #fff;
+}
+
+#generic_price_table .generic_content:hover .generic_price_btn a,
+#generic_price_table .generic_content.active .generic_price_btn a{
+	background-color: #2ECC71;
+	color: #fff;
+} 
+#generic_price_table{
+	margin: 50px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.row .table{
+    padding: 28px 0;
+}
+
+/*PRICE BODY CODE START*/
+
+#generic_price_table .generic_content{
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+#generic_price_table .generic_content .generic_head_price {
+	margin: 0 0 20px 0;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content{
+	margin: 0 0 50px 0;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+    border-style: solid;
+    border-width: 90px 1411px 23px 399px;
+	position: absolute;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head{
+	padding-top: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+    font-family: "Raleway",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag{
+	padding: 0 0 20px;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price{
+	display: block;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    font-family: "Lato",sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li{
+	font-family: "Lato",sans-serif;
+	font-size: 18px;
+	padding: 15px 0;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table .generic_content .generic_feature_list ul li:hover{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+
+}
+#generic_price_table .generic_content .generic_feature_list ul li .fa{
+	padding: 0 10px;
+}
+#generic_price_table .generic_content .generic_price_btn{
+	margin: 20px 0 32px;
+}
+
+#generic_price_table .generic_content .generic_price_btn a{
+    border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#generic_price_table .generic_content,
+#generic_price_table .generic_content:hover,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head h2,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head h2,
+#generic_price_table .generic_content .price,
+#generic_price_table .generic_content:hover .price,
+#generic_price_table .generic_content .generic_price_btn a,
+#generic_price_table .generic_content:hover .generic_price_btn a{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+} 
+@media (max-width: 320px) {	
+}
+
+@media (max-width: 767px) {
+	#generic_price_table .generic_content{
+		margin-bottom:75px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#generic_price_table .col-md-3{
+		float:left;
+		width:50%;
+	}
+	
+	#generic_price_table .col-md-4{
+		float:left;
+		width:50%;
+	}
+	
+	#generic_price_table .generic_content{
+		margin-bottom:75px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
+#generic_price_table_home{
+	 font-family: 'Raleway', sans-serif;
+}
+
+.text-center h1,
+.text-center h1 a{
+	color: #7885CB;
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: none;
+}
+.demo-pic{
+	margin: 0 auto;
+}
+.demo-pic:hover{
+	opacity: 0.7;
+}
+
+#generic_price_table_home ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: table;
+}
+#generic_price_table_home li{
+	float: left;
+}
+#generic_price_table_home li + li{
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+#generic_price_table_home li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 0px;
+}
+#generic_price_table_home .blue{
+	background: #3498DB;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .emerald{
+	background: #2ECC71;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .grey{
+	background: #7F8C8D;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .midnight{
+	background: #34495E;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .orange{
+	background: #E67E22;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .purple{
+	background: #9B59B6;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .red{
+	background: #E74C3C;
+	transition:all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .turquoise{
+	background: #1ABC9C;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#generic_price_table_home .blue:hover,
+#generic_price_table_home .emerald:hover,
+#generic_price_table_home .grey:hover,
+#generic_price_table_home .midnight:hover,
+#generic_price_table_home .orange:hover,
+#generic_price_table_home .purple:hover,
+#generic_price_table_home .red:hover,
+#generic_price_table_home .turquoise:hover{
+	border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .divider{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+#generic_price_table_home .divider span{
+	width: 100%;
+	display: table;
+	height: 2px;
+	background: #ddd;
+	margin: 50px auto;
+	line-height: 2px;
+}
+#generic_price_table_home .itemname{
+	text-align: center;
+	font-size: 50px ;
+	padding: 50px 0 20px ;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 40px;
+	text-decoration: none;
+    font-weight: 300;
+}
+#generic_price_table_home .itemnametext{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#generic_price_table_home .footer{
+	padding:40px 0;
+}
+
+.price-heading{
+    text-align: center;
+}
+.price-heading h1{
+	color: #666;
+	margin: 0;
+	padding: 0 0 50px 0;
+}
+.demo-button {
+    background-color: #333333;
+    color: #ffffff;
+    display: table;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium ;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom_btn{
+	background-color: #333333;
+    color: #ffffff;
+    display: table;
+    font-size: 28px;
+    margin: 60px auto 20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.demo-button:hover{
+	background-color: #666;
+	color: #FFF;
+	text-decoration:none;
+	
+}
+.bottom_btn:hover{
+	background-color: #666;
+	color: #FFF;
+	text-decoration:none;
+}
+
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+}
+
+#contact-corner{
+	background: 	#f0eded;
+	margin: 50px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-1 form .floating-label-form-group,
+.contact-2 form .floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+}
+.contact-1 form .floating-label-form-group input,
+.contact-2 form .floating-label-form-group input,
+.contact-1 form .floating-label-form-group textarea,
+.contact-2 form .floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.contact-1 form .floating-label-form-group label,
+.contact-2 form .floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+.contact-1 form .floating-label-form-group::not(:first-child),
+.contact-2 form .floating-label-form-group::not(:first-child) {
+  padding-left: 14px;
+}
+.contact-1 form .floating-label-form-group-with-value label,
+.contact-2 form .floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.contact-1 form .floating-label-form-group-with-focus label,
+.contact-2 form .floating-label-form-group-with-focus label {
+  color: #a7cd70;
+}
+.contact-1 form .floating-label-form-group,
+.contact-1.bg-lighter form .floating-label-form-group,
+.contact-2 form .floating-label-form-group,
+.contact-2.bg-lighter form .floating-label-form-group,
+.contact-1.bg-parallax-light form .floating-label-form-group,
+.contact-2.bg-parallax-light form .floating-label-form-group {
+  border-bottom: 1px solid #555d69;
+}
+.contact-1 form .floating-label-form-group::not(:first-child),
+.contact-1.bg-lighter form .floating-label-form-group::not(:first-child),
+.contact-2 form .floating-label-form-group::not(:first-child),
+.contact-2.bg-lighter form .floating-label-form-group::not(:first-child),
+.contact-1.bg-parallax-light form .floating-label-form-group::not(:first-child),
+.contact-2.bg-parallax-light form .floating-label-form-group::not(:first-child) {
+  border-left: 1px solid #555d69;
+}
+.contact-1 form .floating-label-form-group .form-control,
+.contact-1.bg-lighter form .floating-label-form-group .form-control,
+.contact-2 form .floating-label-form-group .form-control,
+.contact-2.bg-lighter form .floating-label-form-group .form-control,
+.contact-1.bg-parallax-light form .floating-label-form-group .form-control,
+.contact-2.bg-parallax-light form .floating-label-form-group .form-control {
+  color: #6b7686;
+}
+.contact-1 form .row:first-child .floating-label-form-group,
+.contact-1.bg-lighter form .row:first-child .floating-label-form-group,
+.contact-2 form .row:first-child .floating-label-form-group,
+.contact-2.bg-lighter form .row:first-child .floating-label-form-group,
+.contact-1.bg-parallax-light form .row:first-child .floating-label-form-group,
+.contact-2.bg-parallax-light form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #555d69;
+}
+.contact-1 ::-webkit-input-placeholder,
+.contact-1.bg-lighter ::-webkit-input-placeholder,
+.contact-2 ::-webkit-input-placeholder,
+.contact-2.bg-lighter ::-webkit-input-placeholder,
+.contact-1.bg-parallax-light ::-webkit-input-placeholder,
+.contact-2.bg-parallax-light ::-webkit-input-placeholder {
+  color: #555d69 !important;
+}
+.contact-1 :-moz-placeholder,
+.contact-1.bg-lighter :-moz-placeholder,
+.contact-2 :-moz-placeholder,
+.contact-2.bg-lighter :-moz-placeholder,
+.contact-1.bg-parallax-light :-moz-placeholder,
+.contact-2.bg-parallax-light :-moz-placeholder {
+  color: #555d69 !important;
+}
+.contact-1 ::-moz-placeholder,
+.contact-1.bg-lighter ::-moz-placeholder,
+.contact-2 ::-moz-placeholder,
+.contact-2.bg-lighter ::-moz-placeholder,
+.contact-1.bg-parallax-light ::-moz-placeholder,
+.contact-2.bg-parallax-light ::-moz-placeholder {
+  color: #555d69 !important;
+}
+.contact-1 :-ms-input-placeholder,
+.contact-1.bg-lighter :-ms-input-placeholder,
+.contact-2 :-ms-input-placeholder,
+.contact-2.bg-lighter :-ms-input-placeholder,
+.contact-1.bg-parallax-light :-ms-input-placeholder,
+.contact-2.bg-parallax-light :-ms-input-placeholder {
+  color: #555d69 !important;
+}
+.contact-1.bg-parallax-dark form .floating-label-form-group,
+.contact-1.bg-dark form .floating-label-form-group,
+.contact-1.bg-primary form .floating-label-form-group,
+.contact-1.bg-secondary form .floating-label-form-group,
+.contact-1.bg-success form .floating-label-form-group,
+.contact-1.bg-info form .floating-label-form-group,
+.contact-1.bg-warning form .floating-label-form-group,
+.contact-1.bg-danger form .floating-label-form-group,
+.contact-2.bg-parallax-dark form .floating-label-form-group,
+.contact-2.bg-dark form .floating-label-form-group,
+.contact-2.bg-primary form .floating-label-form-group,
+.contact-2.bg-secondary form .floating-label-form-group,
+.contact-2.bg-success form .floating-label-form-group,
+.contact-2.bg-info form .floating-label-form-group,
+.contact-2.bg-warning form .floating-label-form-group,
+.contact-2.bg-danger form .floating-label-form-group {
+  border-bottom: 1px solid #f4f5f7;
+}
+.contact-1.bg-parallax-dark form .floating-label-form-group::not(:first-child),
+.contact-1.bg-dark form .floating-label-form-group::not(:first-child),
+.contact-1.bg-primary form .floating-label-form-group::not(:first-child),
+.contact-1.bg-secondary form .floating-label-form-group::not(:first-child),
+.contact-1.bg-success form .floating-label-form-group::not(:first-child),
+.contact-1.bg-info form .floating-label-form-group::not(:first-child),
+.contact-1.bg-warning form .floating-label-form-group::not(:first-child),
+.contact-1.bg-danger form .floating-label-form-group::not(:first-child),
+.contact-2.bg-parallax-dark form .floating-label-form-group::not(:first-child),
+.contact-2.bg-dark form .floating-label-form-group::not(:first-child),
+.contact-2.bg-primary form .floating-label-form-group::not(:first-child),
+.contact-2.bg-secondary form .floating-label-form-group::not(:first-child),
+.contact-2.bg-success form .floating-label-form-group::not(:first-child),
+.contact-2.bg-info form .floating-label-form-group::not(:first-child),
+.contact-2.bg-warning form .floating-label-form-group::not(:first-child),
+.contact-2.bg-danger form .floating-label-form-group::not(:first-child) {
+  border-left: 1px solid #f4f5f7;
+}
+.contact-1.bg-parallax-dark form .floating-label-form-group .form-control,
+.contact-1.bg-dark form .floating-label-form-group .form-control,
+.contact-1.bg-primary form .floating-label-form-group .form-control,
+.contact-1.bg-secondary form .floating-label-form-group .form-control,
+.contact-1.bg-success form .floating-label-form-group .form-control,
+.contact-1.bg-info form .floating-label-form-group .form-control,
+.contact-1.bg-warning form .floating-label-form-group .form-control,
+.contact-1.bg-danger form .floating-label-form-group .form-control,
+.contact-2.bg-parallax-dark form .floating-label-form-group .form-control,
+.contact-2.bg-dark form .floating-label-form-group .form-control,
+.contact-2.bg-primary form .floating-label-form-group .form-control,
+.contact-2.bg-secondary form .floating-label-form-group .form-control,
+.contact-2.bg-success form .floating-label-form-group .form-control,
+.contact-2.bg-info form .floating-label-form-group .form-control,
+.contact-2.bg-warning form .floating-label-form-group .form-control,
+.contact-2.bg-danger form .floating-label-form-group .form-control {
+  color: #ffffff;
+}
+.contact-1.bg-parallax-dark form .row:first-child .floating-label-form-group,
+.contact-1.bg-dark form .row:first-child .floating-label-form-group,
+.contact-1.bg-primary form .row:first-child .floating-label-form-group,
+.contact-1.bg-secondary form .row:first-child .floating-label-form-group,
+.contact-1.bg-success form .row:first-child .floating-label-form-group,
+.contact-1.bg-info form .row:first-child .floating-label-form-group,
+.contact-1.bg-warning form .row:first-child .floating-label-form-group,
+.contact-1.bg-danger form .row:first-child .floating-label-form-group,
+.contact-2.bg-parallax-dark form .row:first-child .floating-label-form-group,
+.contact-2.bg-dark form .row:first-child .floating-label-form-group,
+.contact-2.bg-primary form .row:first-child .floating-label-form-group,
+.contact-2.bg-secondary form .row:first-child .floating-label-form-group,
+.contact-2.bg-success form .row:first-child .floating-label-form-group,
+.contact-2.bg-info form .row:first-child .floating-label-form-group,
+.contact-2.bg-warning form .row:first-child .floating-label-form-group,
+.contact-2.bg-danger form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #f4f5f7;
+}
+.contact-1.bg-parallax-dark ::-webkit-input-placeholder,
+.contact-1.bg-dark ::-webkit-input-placeholder,
+.contact-1.bg-primary ::-webkit-input-placeholder,
+.contact-1.bg-secondary ::-webkit-input-placeholder,
+.contact-1.bg-success ::-webkit-input-placeholder,
+.contact-1.bg-info ::-webkit-input-placeholder,
+.contact-1.bg-warning ::-webkit-input-placeholder,
+.contact-1.bg-danger ::-webkit-input-placeholder,
+.contact-2.bg-parallax-dark ::-webkit-input-placeholder,
+.contact-2.bg-dark ::-webkit-input-placeholder,
+.contact-2.bg-primary ::-webkit-input-placeholder,
+.contact-2.bg-secondary ::-webkit-input-placeholder,
+.contact-2.bg-success ::-webkit-input-placeholder,
+.contact-2.bg-info ::-webkit-input-placeholder,
+.contact-2.bg-warning ::-webkit-input-placeholder,
+.contact-2.bg-danger ::-webkit-input-placeholder {
+  color: rgba(244, 245, 247, 0.8) !important;
+}
+.contact-1.bg-parallax-dark :-moz-placeholder,
+.contact-1.bg-dark :-moz-placeholder,
+.contact-1.bg-primary :-moz-placeholder,
+.contact-1.bg-secondary :-moz-placeholder,
+.contact-1.bg-success :-moz-placeholder,
+.contact-1.bg-info :-moz-placeholder,
+.contact-1.bg-warning :-moz-placeholder,
+.contact-1.bg-danger :-moz-placeholder,
+.contact-2.bg-parallax-dark :-moz-placeholder,
+.contact-2.bg-dark :-moz-placeholder,
+.contact-2.bg-primary :-moz-placeholder,
+.contact-2.bg-secondary :-moz-placeholder,
+.contact-2.bg-success :-moz-placeholder,
+.contact-2.bg-info :-moz-placeholder,
+.contact-2.bg-warning :-moz-placeholder,
+.contact-2.bg-danger :-moz-placeholder {
+  color: rgba(244, 245, 247, 0.8) !important;
+}
+.contact-1.bg-parallax-dark ::-moz-placeholder,
+.contact-1.bg-dark ::-moz-placeholder,
+.contact-1.bg-primary ::-moz-placeholder,
+.contact-1.bg-secondary ::-moz-placeholder,
+.contact-1.bg-success ::-moz-placeholder,
+.contact-1.bg-info ::-moz-placeholder,
+.contact-1.bg-warning ::-moz-placeholder,
+.contact-1.bg-danger ::-moz-placeholder,
+.contact-2.bg-parallax-dark ::-moz-placeholder,
+.contact-2.bg-dark ::-moz-placeholder,
+.contact-2.bg-primary ::-moz-placeholder,
+.contact-2.bg-secondary ::-moz-placeholder,
+.contact-2.bg-success ::-moz-placeholder,
+.contact-2.bg-info ::-moz-placeholder,
+.contact-2.bg-warning ::-moz-placeholder,
+.contact-2.bg-danger ::-moz-placeholder {
+  color: rgba(244, 245, 247, 0.8) !important;
+}
+.contact-1.bg-parallax-dark :-ms-input-placeholder,
+.contact-1.bg-dark :-ms-input-placeholder,
+.contact-1.bg-primary :-ms-input-placeholder,
+.contact-1.bg-secondary :-ms-input-placeholder,
+.contact-1.bg-success :-ms-input-placeholder,
+.contact-1.bg-info :-ms-input-placeholder,
+.contact-1.bg-warning :-ms-input-placeholder,
+.contact-1.bg-danger :-ms-input-placeholder,
+.contact-2.bg-parallax-dark :-ms-input-placeholder,
+.contact-2.bg-dark :-ms-input-placeholder,
+.contact-2.bg-primary :-ms-input-placeholder,
+.contact-2.bg-secondary :-ms-input-placeholder,
+.contact-2.bg-success :-ms-input-placeholder,
+.contact-2.bg-info :-ms-input-placeholder,
+.contact-2.bg-warning :-ms-input-placeholder,
+.contact-2.bg-danger :-ms-input-placeholder {
+  color: rgba(244, 245, 247, 0.8) !important;
+}
+.contact-2 {
+  position: relative;
+  padding: 0;
+  min-height: 732px;
+}
+.contact-2 .map-content {
+  padding: 100px 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.contact-2 #map-canvas {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+
+
+
+.footer-bottom {
+    background: #283645;
+    color: #707e8c;
+}
+
+.footer-bottom .container.inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-bottom p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.footer-bottom p, .footer-bottom a {
+    color: #707e8c;
+}
+
+.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4 {
+    color: #FFF;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    position: relative;
+}
+
+.newsletter input[type="email"] {
+    background: rgba(255,255,255,0.15);
+    padding-right: 100px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    color: #FFF!important;
+}
+
+input, textarea, .uneditable-input, .form-inline .form-control, .navbar-form .form-control {
+    width: 100%;
+}
+
+footer .newsletter .btn-submit {
+    width: 88px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.newsletter .btn-submit, .search .btn-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: #FFF!important;
+    line-height: 1;
+}
